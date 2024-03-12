@@ -25,7 +25,7 @@ export default function ContactForm() {
             try {
               const formData = {
                 to: fromEmail, // Change to your recipient
-                from: 'andrewbaisden@gmail.com', // Change to your verified sender
+                from: 'youremail@gmail.com', // Change to your verified sender
                 subject: `Email enquiry from ${fromName}`,
                 text: message,
                 html: `
